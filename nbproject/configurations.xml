@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Arquivos de Cabeçalho"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Arquivos de Código-Fonte"
+                   projectFiles="true">
+      <itemPath>VAatribuicao_simplificada.c</itemPath>
+      <itemPath>VAconstantes.c</itemPath>
+      <itemPath>VAelse.c</itemPath>
+      <itemPath>VAif.c</itemPath>
+      <itemPath>VAif_else.c</itemPath>
+      <itemPath>VAop_aritmeticos.c</itemPath>
+      <itemPath>VAoperadorDeAtribuicao.c</itemPath>
+      <itemPath>VAoperadores_logicos.c</itemPath>
+      <itemPath>VAoperadores_relacionais.c</itemPath>
+      <itemPath>VApre_pos_incremento.c</itemPath>
+      <itemPath>VAscanf.c</itemPath>
+      <itemPath>ecercicio1.c</itemPath>
+      <itemPath>exercicio2.c</itemPath>
+      <itemPath>exercicio3.c</itemPath>
+      <itemPath>exercicio4.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Arquivos de Recurso"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Arquivos de Teste"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Arquivos Importantes"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>10</standard>
+        </cTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="exercicio3.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>10</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="VAatribuicao_simplificada.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAconstantes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAelse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAif.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAif_else.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAop_aritmeticos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAoperadorDeAtribuicao.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAoperadores_logicos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAoperadores_relacionais.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VApre_pos_incremento.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="VAscanf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="ecercicio1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="exercicio2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="exercicio3.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="exercicio4.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

@@ -67,6 +67,7 @@ OBJECTFILES= \
 	${OBJECTDIR}/fatorial.o \
 	${OBJECTDIR}/for.o \
 	${OBJECTDIR}/mulltplosd5.o \
+	${OBJECTDIR}/newmain.o \
 	${OBJECTDIR}/while&buffer.o \
 	${OBJECTDIR}/while.o
 
@@ -254,6 +255,11 @@ ${OBJECTDIR}/mulltplosd5.o: mulltplosd5.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
 	$(COMPILE.c) -O2 -std=c11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/mulltplosd5.o mulltplosd5.c
+
+${OBJECTDIR}/newmain.o: newmain.c
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.c) -O2 -std=c11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/newmain.o newmain.c
 
 ${OBJECTDIR}/while&buffer.o: while&buffer.c
 	${MKDIR} -p ${OBJECTDIR}

@@ -35,7 +35,7 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/7numInPosMenQ100Debug.o
+	${OBJECTDIR}/newmain.o
 
 
 # C Compiler Flags
@@ -62,10 +62,10 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/meuprojetoc1: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/meuprojetoc1 ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/7numInPosMenQ100Debug.o: 7numInPosMenQ100Debug.c
+${OBJECTDIR}/newmain.o: newmain.c
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -g -std=c11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/7numInPosMenQ100Debug.o 7numInPosMenQ100Debug.c
+	$(COMPILE.c) -g -std=c11 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/newmain.o newmain.c
 
 # Subprojects
 .build-subprojects:
